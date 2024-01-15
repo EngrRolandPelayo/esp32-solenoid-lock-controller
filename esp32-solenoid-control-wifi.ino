@@ -17,8 +17,8 @@ Full tutorial on https://www.teachmemicro.com/esp32-solenoid-lock-controller
 int solenoid = 14;
 
 //provide your own WiFi SSID and password
-const char* ssid = "Stacey's_Wifi_2.4";
-const char* password = "vJKQ5dsp";
+const char* ssid = "<Insert Your WiFi SSID>";
+const char* password = "<Insert Your WiFi Password>";
 
 //create WebServer object at port 80
 WebServer server(80);
